@@ -1,0 +1,84 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    box-sizing: border-box;
+}
+.container{
+    background-color:#af4c90;
+    margin-left: 450px;
+    margin-right: 450px;
+    border: solid black 2px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+h2{
+    color:  rgb(50, 271, 284);
+    padding-bottom: 20px;
+    font-weight: bold;
+    font-size: 40px;
+}
+.kelvin{
+    color: rgb(13, 255, 0);
+    font-weight: bold;
+}
+.celsius{
+    color: #fff;
+    font-weight: bold;
+}
+.fahrenheit{
+    color: rgb(247, 1, 1);
+    font-weight: bolder;
+}
+::placeholder{
+    color: black;
+}
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin-top: 300px;
+    background:  rgb(43, 171, 226);
+}
+
+input {
+    padding: 8px;
+    padding-right: 220px;
+    margin: 5px;
+    text-align: center;
+    background-color: rgb(234, 240, 238);
+    border: solid black 3px;
+}
+.celsius input{
+    margin-left: 30px;
+}
+.kelvin input{
+    margin-left: 37px;
+}
+
+button {
+    padding: 10px;
+    margin-top: 20px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+.b1{
+    background-color: #fff;
+    color: black;
+    margin-right: 10px;
+}
+.b2{
+    background: rgb(247, 1, 1);
+    margin-right: 10px;
+}
+.b3{
+    background: rgb(16, 184, 7);
+    margin-right: 10px;
+}
+
+#result {
+    font-size: 20px;
+    margin-top: 10px;
+}

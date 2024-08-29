@@ -1,0 +1,14 @@
+.click{
+    justify-content: center;
+    text-align: center;
+    margin: 300px;
+}
+button{
+    background-color: sandybrown;
+    padding: 20px 25px;
+    margin: 10px;
+}
+button:hover{
+    cursor: pointer;
+    background-color: red;
+}

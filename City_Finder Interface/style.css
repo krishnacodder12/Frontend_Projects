@@ -1,0 +1,48 @@
+    body{
+        background-image: linear-gradient(to bottom, #7ed31c, #efefef);
+        height: 100vh;
+    }
+    .all{
+        text-align: center;
+        color: rgb(240, 248, 255);
+        padding-top: 20px;
+    }
+    .city{
+        border-radius: 10px;
+        border-color: yellow;
+        border-top: none;
+        border-width: 3px;
+        font-size: 20px;
+        padding: 8px;
+        
+    }
+    .search{
+        border-radius: 10px;
+        border-color: yellow;
+        border-top: none;
+        border-width: 3px;
+        font-size: 20px;
+        padding: 8px;
+        text-align: center;
+
+    }
+    .location{
+        color: white;
+        font-weight: bold;
+        font-size: 40px;
+    }
+    #date{
+        font-size: larger;
+
+    }
+    #celcius{
+        font-weight: bolder;
+        font-size: 80px;
+    }
+    .weather{
+        font-weight: bold;
+        font-size: 20px;
+    }
+    #cel{
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    }

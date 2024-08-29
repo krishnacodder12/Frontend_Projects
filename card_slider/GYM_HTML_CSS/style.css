@@ -1,0 +1,65 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    box-sizing: border-box;
+}
+body{
+    background-image: url(bg.jpg);
+    background-size: 100%;
+    color: white;
+}
+.now{
+    margin-left: 20px;
+}
+.navbar{
+    margin-left: 130vh;
+}
+.navbar li{
+   float: left;
+   list-style: none;
+   
+}
+.navbar li a{
+    padding: 10px 10px;
+    text-decoration: none;
+    color: white;
+}
+.navbar li a:hover{
+    color: red;
+}
+.men{
+    margin-left: 500px;
+    margin-top: 100px;
+}
+span{
+    color: white;
+}
+.r{
+    color: red;
+}
+.G{
+    color: red;
+}
+.container{
+    padding-top: 100px;
+    padding-left: 100px;
+}
+.container .head{
+    font-size: 100px;
+    padding-bottom: 20px;
+    font-weight: 100;
+}
+button{
+    margin-top: 20px;
+    margin-left: 230px;
+    font-size: 20px;
+    color: red;
+    background: none;
+    border: 1px solid red;
+}
+button:hover{
+    color: white;
+    background-color: red;
+    cursor: pointer;
+}

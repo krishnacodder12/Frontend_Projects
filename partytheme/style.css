@@ -1,0 +1,26 @@
+body{
+    margin-left: 200px;
+    margin-right: 200px;
+    background-color:#FFCCCC;
+    font-family: Arial, Helvetica, sans-serif;
+}
+div{
+    background-color: white;
+    border-radius: 10px;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+.image{
+    padding: 100px;
+    background-image: url("1.jpg");
+}
+.box1{
+    border:1px solid #FFCCCC;
+    padding: 20px;
+    border-radius: 15px;
+}
+input{
+    border: none;
+    border-bottom: 1px solid black;
+    
+}

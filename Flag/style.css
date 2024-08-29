@@ -1,0 +1,41 @@
+body{
+background-image: url('Hallx.webp');
+font-family: sans-serif;
+margin: 25px;
+}
+
+h1{
+    text-align: center;
+}
+
+.box1{
+    background-color: orange;
+    padding: 20px;
+    border: 1px solid black;
+    margin-bottom: 20px;
+
+}
+a{
+    text-decoration: none;
+    color: aliceblue;
+    background-color: black;
+    padding: 20px;
+}
+
+.box2{
+    background-color: aliceblue;
+    padding: 20px;
+    border: 1px solid black;
+    margin-bottom: 20px;
+}
+a{
+    text-decoration: none;
+    color: aliceblue;
+    border: black;
+    padding: 20px;
+}
+.box3{
+    background-color: green;
+    padding: 20px;
+    border: 1px solid black;
+}

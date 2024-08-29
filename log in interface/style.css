@@ -1,0 +1,52 @@
+
+body{
+    background-color: white;
+    font-family: sans-serif;
+    margin: 150px;
+
+}
+
+h1{
+    text-align: center;
+    color: aliceblue;
+
+}
+.head{
+    background-color:rgb(107, 26, 108);
+    border: black;
+}
+.box1{
+    background-color: white;
+    padding: 80px;
+    margin-left: 100px;
+    margin-right: 100px;
+    margin-bottom: 200px;
+}
+    .box2{
+        background-color: white;
+        margin-bottom: 20px;
+    }
+    .box3{
+        text-align: center;
+        background-color: rgb(107, 26, 108);
+    }
+    .box4{
+        text-align: right;
+    }
+    .box5{
+        background-color: rgb(107, 26, 108);
+        color: aliceblue;
+        text-align: center;
+    }
+    .loginpage{
+        background-color: rgb(107, 26, 108);
+        color: aliceblue;
+
+    }
+    
+    
+
+.textinput{
+    color: aliceblue;
+
+}
