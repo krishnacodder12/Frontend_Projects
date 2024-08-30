@@ -1,0 +1,191 @@
+
+body h1,h2,p,ul,li{
+        margin: 0;
+        padding:0;
+}
+/* Basic Styling*/
+body{
+    font-family: arial;
+    background-color: rgb(226, 107, 127);
+    margin: 0;
+    padding: 0;
+}
+
+header{
+    background-color: rgb(14, 13, 13);
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    align-items: center;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+}
+nav li{
+    margin-right: 20px;
+}
+nav a{
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+/*Hero Section*/
+.hero{
+    background-image:url("bakeri.jpg");
+    text-align: center;
+    background-position: center;
+    background-size: cover;
+    color: aliceblue;
+    padding: 100px;
+
+}
+.hero h2{
+    margin-bottom: 10px;
+    font-size: 3rem;
+}
+.hero p{
+    font-size: 1.2rem;
+    margin-bottom: 20px;
+}
+.hero a{
+    background-color: red;
+    color: aliceblue;
+    text-decoration: none;
+    padding: 10px 20px;
+    /* margin-top: 10px; */
+}
+.hero a:hover{
+    background-color: brown;
+}
+.cta-button{
+    display: inline-block;
+    background-color: brown;
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+    transition: background-color 0.3s ease-in-out
+}
+.cta-button:hover{
+    background-color: violet;
+}
+/* Add more style for other sections as needed*/
+footer{
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+}
+.menu{
+    padding: 40px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.menu_item{
+    width: calc(26.99999%);/*Adjust as needed for your layout*/
+    margin-bottom: 40px;
+    background-color: white;
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+@media only screen and (max-width: 900px) {
+    .menu_item {
+      width: 43.33%;
+    }
+  }
+  @media only screen and (max-width: 600px) {
+    .menu_item {
+      width: 100%;
+    }
+  }  
+.menu_item img{
+    max-width: 100%;
+    border-radius: 5PX;
+    margin-bottom: 10PX;
+}
+.menu_item h3{
+    font-size: 1.5rem;
+    margin-bottom: 5px;
+}
+.menu_item p{
+    font-size: 1rem;
+    color: #777;
+}
+.about {
+    background-image: url(tarua.jpg);
+    padding: 60px 0;
+    color: aliceblue;
+}
+.about-content{
+    max-width: 800px;
+    margin: 0 auto;
+    text-align: center;
+
+}
+.about h2{
+    font-size: 2rem;
+    margin-bottom: 20px;
+}
+.about img{
+    max-width: 100px;
+    border-radius: 5px;
+}
+.contact{
+    padding: 60px 0;
+    text-align: center;
+}
+.contact-content{
+    max-width: 800px;
+    margin: 0 auto;
+}
+.contact h2{
+    font-size: 2rem;
+    margin-bottom: 20px;
+}
+.contact p{
+    font-size: 1.1rem;
+    color: #555;
+    margin-bottom: 20px;
+}
+.contact-info{
+    margin-bottom: 30px;
+    text-align: center;
+}
+.contact-form{
+    text-align: center;
+}
+.contact-form label{
+    display: block;
+    font-size: 1rem;
+    margin-bottom: 5px;
+}
+.contact-form input,
+.contact-form textarea{
+    width: 70%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+.contact-form textarea{
+    resize: vertical;
+}
+.contact-form button{
+    background-color: #e74c3c;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    cursor: pointer;
+    transition: background-color 0.3s ease-in-out
+}
+.contact-form button:hover{
+    background-color: #c0392b;
+}
+
+
